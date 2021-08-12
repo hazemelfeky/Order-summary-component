@@ -124,6 +124,26 @@ body{
 }
 
 .cancel{
-	background-color: var(--lighter-text);
 	color: var(--dark-text)
+}
+
+
+
+@media only screen and (max-width: 768px) {
+  .main{
+  	background-image: url('./images/pattern-background-mobile.svg');
+  }
+  .proj{
+  	max-width: 400px
+  }
+  .proj--container{
+  	padding: 0 15px 15px
+  }
+  .proj--title{
+  	margin: 20px 0 10px;
+  	font-size: 28px
+  }
+  .offer{
+  	padding: 15px
+  }
 }
